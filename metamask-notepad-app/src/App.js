@@ -9,7 +9,7 @@ import metamask from "./assets/metamask.png"
 function App() {
   const [isConnected, setIsConnected] = useState(false);
   const [userInfo, setUserInfo] = useState({});
-
+  //useeffect
   useEffect(() => {
     function checkConnectedWallet() {
       const userData = JSON.parse(localStorage.getItem("userAccount"));
